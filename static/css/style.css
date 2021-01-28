@@ -1,0 +1,63 @@
+.box {
+     float: left;
+     padding: 20px;
+     background: #eee;
+}
+
+.center {
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+	border: 3px solid green;
+}
+
+button {
+	margin:5px;
+}
+
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 20%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  color: white;
+  overflow-x: hidden;
+}
+
+.sideSelection {
+  background-color: #111;
+  color: white;
+  min-width: 100%;
+}
+
+.sideSelection option:hover{
+	background-color: #ddd;
+	color: black;
+}
+
+/* Side navigation links */
+.sidenav a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.map {
+  background: beige;
+  width: 80%;
+  float: right;
+}
+
+.main {
+  border: 3px solid green;
+}
